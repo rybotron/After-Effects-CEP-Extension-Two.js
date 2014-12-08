@@ -6,7 +6,6 @@ A quick proof of concept hack to load TWO.js shapes to shape layers in After Eff
 For more information about Adobe CEP Extensions see: [A Short Guide to HTML 5 Extensions](http://www.adobe.com/devnet/creativesuite/articles/a-short-guide-to-HTML5-extensions.html) The following text was adapted from there:
 
 ### Player Debug Mode Setup
-from 
 
 Applications will normally not load an extension unless it is cryptographically signed. However, during development we want to be able to quickly test an extension without having to sign it. To turn on debug mode:
 
