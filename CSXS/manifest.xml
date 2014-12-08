@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExtensionManifest  ExtensionBundleId="com.rybotron.twoextract" 
+                    ExtensionBundleName="TWO.js Extract Shapes" 
+                    ExtensionBundleVersion="1.0" 
+                    Version="5.0">
+  <ExtensionList>
+    <Extension Id="com.rybotron.twoextract.extension" Version="0.1" />
+  </ExtensionList>
+  <ExecutionEnvironment>
+    <HostList>
+      <Host Name="AEFT" Version="13.0"/>
+    </HostList>
+    <LocaleList>
+      <Locale Code="All"/>af
+    </LocaleList>
+    <RequiredRuntimeList>
+      <RequiredRuntime Name="CSXS" Version="5.0"/>
+    </RequiredRuntimeList>
+  </ExecutionEnvironment>
+  <DispatchInfoList>
+    <Extension Id="com.rybotron.twoextract.extension">
+      <DispatchInfo>
+        <Resources>
+          <MainPath>./index.html</MainPath>
+          <ScriptPath>./jsx/hostscript.jsx</ScriptPath>
+        </Resources>
+        <UI>
+          <Type>Panel</Type>
+          <Menu>TWO.js Extract Shapes</Menu>
+          <Geometry>
+            <Size>
+              <Height>960</Height>
+              <Width>540</Width>
+            </Size>
+          </Geometry>
+        </UI>
+      </DispatchInfo>
+    </Extension>
+  </DispatchInfoList>
+</ExtensionManifest>
