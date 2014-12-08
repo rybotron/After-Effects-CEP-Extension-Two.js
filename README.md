@@ -20,7 +20,7 @@ You should only need to do this once.
 Now that the system is ready to load our unsigned extension, the last thing we have to do is copy our extension into the shared extensions folder on disk:
 
 * On Mac, copy the extension into **~/Library/Application Support/Adobe/CEPServiceManager4/extensions**
-* On Windows, copy the extension into **%APPDATA%\Adobe\CEPServiceManager4\extensions**
+* On Windows, copy the extension into **%APPDATA%\Adobe\CEPServiceManager4/extensions**
 
 ### Opening the extension
 Now we can open the extension in After Effects CC2014. Launch the application and choose the menu **Window > Extensions > TWO.js Extract Shapes**.
